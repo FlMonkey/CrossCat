@@ -1,0 +1,937 @@
+{
+  "garment_taxonomy": {
+    "tops": {
+      "t_shirts": [
+        "crew_neck_tee",
+        "v_neck_tee",
+        "graphic_tee",
+        "oversized_tee"
+      ],
+      "shirts": [
+        "dress_shirt",
+        "oxford_shirt",
+        "button_up",
+        "camp_collar_shirt"
+      ],
+      "polos": [
+        "classic_polo",
+        "knit_polo",
+        "long_sleeve_polo"
+      ],
+      "sweaters": [
+        "crewneck_sweater",
+        "v_neck_sweater",
+        "turtleneck",
+        "cardigan"
+      ],
+      "sweatshirts": [
+        "sweatshirt",
+        "hoodie",
+        "zip_hoodie"
+      ],
+      "tank_tops": [
+        "tank",
+        "sleeveless_top"
+      ],
+      "blouses": [
+        "blouse",
+        "tunic",
+        "wrap_top"
+      ],
+      "bodysuits": [
+        "bodysuit"
+      ]
+    },
+    "outerwear": {
+      "jackets": [
+        "bomber",
+        "biker",
+        "trucker",
+        "field_jacket",
+        "utility_jacket",
+        "varsity_jacket"
+      ],
+      "coats": [
+        "overcoat",
+        "trench_coat",
+        "peacoat",
+        "duffle_coat"
+      ],
+      "technical": [
+        "rain_jacket",
+        "shell",
+        "windbreaker"
+      ],
+      "insulated": [
+        "puffer",
+        "down_jacket",
+        "parka"
+      ],
+      "blazers": [
+        "blazer",
+        "sport_coat"
+      ],
+      "vests": [
+        "gilet",
+        "puffer_vest",
+        "utility_vest"
+      ]
+    },
+    "bottoms": {
+      "pants": {
+        "jeans": [
+          "straight",
+          "skinny",
+          "bootcut",
+          "flare",
+          "baggy"
+        ],
+        "trousers": [
+          "tailored_trousers",
+          "pleated_trousers",
+          "dress_pants"
+        ],
+        "chinos": [
+          "chinos"
+        ],
+        "cargo_pants": [
+          "cargo",
+          "combat_pants"
+        ],
+        "sweatpants": [
+          "joggers",
+          "track_pants"
+        ],
+        "leggings": [
+          "leggings",
+          "compression_pants"
+        ]
+      },
+      "shorts": [
+        "denim_shorts",
+        "chino_shorts",
+        "athletic_shorts"
+      ],
+      "skirts": [
+        "mini",
+        "midi",
+        "maxi",
+        "pleated",
+        "pencil"
+      ]
+    },
+    "dresses": {
+      "casual": [
+        "sundress",
+        "shirt_dress"
+      ],
+      "formal": [
+        "evening_dress",
+        "cocktail_dress"
+      ],
+      "bodycon": [
+        "bodycon"
+      ],
+      "flowing": [
+        "maxi",
+        "wrap",
+        "slip"
+      ]
+    },
+    "suits": {
+      "suits": [
+        "two_piece",
+        "three_piece"
+      ],
+      "tuxedos": [
+        "tuxedo"
+      ],
+      "separates": [
+        "suit_jacket",
+        "suit_trousers"
+      ]
+    },
+    "activewear": {
+      "tops": [
+        "training_tee",
+        "compression_top"
+      ],
+      "bottoms": [
+        "gym_shorts",
+        "leggings",
+        "running_pants"
+      ],
+      "outerwear": [
+        "track_jacket",
+        "running_jacket"
+      ]
+    },
+    "swimwear": {
+      "swim_trunks": [
+        "board_shorts",
+        "swim_shorts"
+      ],
+      "swimsuits": [
+        "one_piece",
+        "bikini"
+      ]
+    },
+    "underwear": {
+      "underwear": [
+        "briefs",
+        "boxers",
+        "boxer_briefs"
+      ],
+      "bras": [
+        "sports_bra",
+        "bralette"
+      ]
+    },
+    "sleepwear": [
+      "pajamas",
+      "robe",
+      "nightdress"
+    ],
+    "footwear": {
+      "sneakers": [
+        "lifestyle",
+        "running",
+        "basketball"
+      ],
+      "boots": [
+        "chelsea",
+        "hiking",
+        "combat"
+      ],
+      "formal_shoes": [
+        "oxford",
+        "derby",
+        "loafer"
+      ],
+      "sandals": [
+        "slides",
+        "sandals"
+      ]
+    },
+    "accessories": {
+      "bags": [
+        "backpack",
+        "tote",
+        "handbag",
+        "messenger"
+      ],
+      "headwear": [
+        "cap",
+        "beanie",
+        "bucket_hat"
+      ],
+      "belts": [
+        "belt"
+      ],
+      "scarves": [
+        "scarf"
+      ],
+      "ties": [
+        "necktie",
+        "bow_tie"
+      ],
+      "gloves": [
+        "gloves"
+      ]
+    }
+  },
+  "attributes": {
+    "fit": [
+      "fitted",
+      "slim",
+      "skinny",
+      "regular_fit",
+      "relaxed",
+      "oversized",
+      "baggy",
+      "boxy",
+      "cropped_fit",
+      "elongated",
+      "tapered",
+      "straight_cut",
+      "flared",
+      "bootcut",
+      "wide_leg",
+      "drop_shoulder",
+      "structured_fit",
+      "draped_fit"
+    ],
+    "silhouette": [
+      "structured",
+      "unstructured",
+      "angular",
+      "rounded",
+      "flowing",
+      "rigid",
+      "voluminous",
+      "streamlined",
+      "bulky",
+      "lightweight_visual",
+      "cropped",
+      "longline",
+      "high_waisted",
+      "mid_rise",
+      "low_rise",
+      "fitted_waist",
+      "dropped_waist",
+      "asymmetric",
+      "layered"
+    ],
+    "formality": [
+      "lounge",
+      "casual",
+      "elevated_casual",
+      "smart_casual",
+      "business_casual",
+      "professional",
+      "semi_formal",
+      "formal",
+      "black_tie",
+      "ceremonial"
+    ],
+    "style": [
+      "minimalist",
+      "maximalist",
+      "classic",
+      "timeless",
+      "contemporary",
+      "modern",
+      "vintage",
+      "retro",
+      "heritage",
+      "old_money",
+      "preppy",
+      "ivy",
+      "collegiate",
+      "academic",
+      "dark_academia",
+      "light_academia",
+      "streetwear",
+      "skate",
+      "hip_hop",
+      "techwear",
+      "gorpcore",
+      "normcore",
+      "workwear",
+      "utilitarian",
+      "military",
+      "western",
+      "americana",
+      "biker",
+      "punk",
+      "grunge",
+      "goth",
+      "emo",
+      "rock",
+      "metal",
+      "bohemian",
+      "hippie",
+      "festival",
+      "romantic",
+      "feminine",
+      "masculine",
+      "androgynous",
+      "sporty",
+      "athletic",
+      "tennis_style",
+      "golf_style",
+      "football_style",
+      "basketball_style",
+      "racing",
+      "nautical",
+      "resort",
+      "coastal",
+      "mediterranean",
+      "scandinavian",
+      "japanese_minimal",
+      "korean_style",
+      "parisian",
+      "italian",
+      "british_country",
+      "safari",
+      "outdoorsy",
+      "hiking",
+      "mountaineering",
+      "tactical",
+      "futuristic",
+      "cyberpunk",
+      "avant_garde",
+      "artistic",
+      "designer",
+      "quiet_luxury",
+      "luxury",
+      "understated_luxury",
+      "y2k",
+      "1990s",
+      "1980s",
+      "1970s",
+      "1960s",
+      "1950s"
+    ],
+    "visual_personality": [
+      "understated",
+      "bold",
+      "subtle",
+      "loud",
+      "flashy",
+      "restrained",
+      "clean",
+      "rugged",
+      "refined",
+      "polished",
+      "elegant",
+      "sophisticated",
+      "playful",
+      "youthful",
+      "mature",
+      "serious",
+      "professional",
+      "rebellious",
+      "edgy",
+      "aggressive",
+      "soft",
+      "delicate",
+      "romantic",
+      "sensual",
+      "sexy",
+      "modest",
+      "cozy",
+      "relaxed",
+      "effortless",
+      "intentional",
+      "quirky",
+      "eccentric",
+      "artistic",
+      "intellectual",
+      "expensive_looking",
+      "cheap_looking",
+      "premium",
+      "basic",
+      "statement_piece",
+      "versatile",
+      "distinctive",
+      "trendy",
+      "timeless"
+    ],
+    "colors": [
+      "black",
+      "white",
+      "off_white",
+      "cream",
+      "beige",
+      "tan",
+      "brown",
+      "dark_brown",
+      "camel",
+      "grey",
+      "charcoal",
+      "silver",
+      "red",
+      "burgundy",
+      "maroon",
+      "orange",
+      "yellow",
+      "mustard",
+      "green",
+      "olive",
+      "khaki",
+      "forest_green",
+      "mint",
+      "blue",
+      "navy",
+      "sky_blue",
+      "teal",
+      "turquoise",
+      "purple",
+      "lavender",
+      "pink",
+      "rose",
+      "coral",
+      "gold",
+      "bronze",
+      "multicolor"
+    ],
+    "color_characteristics": [
+      "dark",
+      "light",
+      "muted",
+      "saturated",
+      "pastel",
+      "bright",
+      "neutral",
+      "earthy",
+      "warm_toned",
+      "cool_toned",
+      "monochromatic",
+      "high_contrast",
+      "low_contrast"
+    ],
+    "patterns": [
+      "solid",
+      "striped",
+      "pinstripe",
+      "horizontal_stripe",
+      "vertical_stripe",
+      "checked",
+      "plaid",
+      "tartan",
+      "gingham",
+      "houndstooth",
+      "geometric",
+      "abstract",
+      "floral",
+      "botanical",
+      "paisley",
+      "camouflage",
+      "animal_print",
+      "leopard",
+      "zebra",
+      "polka_dot",
+      "graphic",
+      "logo_pattern",
+      "monogram",
+      "color_block",
+      "gradient",
+      "tie_dye",
+      "patchwork",
+      "textured_pattern"
+    ],
+    "materials": [
+      "cotton",
+      "organic_cotton",
+      "denim",
+      "wool",
+      "merino",
+      "cashmere",
+      "alpaca",
+      "linen",
+      "silk",
+      "satin",
+      "velvet",
+      "corduroy",
+      "leather",
+      "suede",
+      "faux_leather",
+      "polyester",
+      "nylon",
+      "viscose",
+      "rayon",
+      "acrylic",
+      "fleece",
+      "jersey",
+      "canvas",
+      "twill",
+      "flannel",
+      "mesh",
+      "lace",
+      "chiffon",
+      "knit",
+      "ribbed_knit",
+      "sherpa",
+      "down",
+      "synthetic_insulation",
+      "technical_fabric",
+      "waterproof_fabric",
+      "stretch_fabric"
+    ],
+    "texture": [
+      "smooth",
+      "rough",
+      "soft",
+      "fuzzy",
+      "fluffy",
+      "hairy",
+      "coarse",
+      "crisp",
+      "silky",
+      "glossy",
+      "matte",
+      "shiny",
+      "ribbed",
+      "quilted",
+      "woven",
+      "knitted",
+      "brushed",
+      "distressed",
+      "washed",
+      "faded",
+      "worn",
+      "raw",
+      "polished",
+      "embossed",
+      "perforated",
+      "sheer",
+      "opaque"
+    ],
+    "construction": [
+      "single_breasted",
+      "double_breasted",
+      "button_front",
+      "zip_front",
+      "pullover",
+      "snap_buttons",
+      "hidden_closure",
+      "drawstring",
+      "elasticated",
+      "belted",
+      "pleated",
+      "darted",
+      "ruched",
+      "gathered",
+      "panelled",
+      "quilted",
+      "padded",
+      "lined",
+      "unlined",
+      "reversible",
+      "convertible",
+      "packable",
+      "raw_edge",
+      "contrast_stitching",
+      "exposed_seams"
+    ],
+    "neckline": [
+      "crew_neck",
+      "v_neck",
+      "scoop_neck",
+      "boat_neck",
+      "square_neck",
+      "mock_neck",
+      "turtleneck",
+      "funnel_neck",
+      "polo_collar",
+      "shirt_collar",
+      "camp_collar",
+      "mandarin_collar",
+      "shawl_collar",
+      "hooded",
+      "collarless",
+      "off_shoulder",
+      "sweetheart_neck"
+    ],
+    "sleeves": [
+      "sleeveless",
+      "short_sleeve",
+      "elbow_sleeve",
+      "three_quarter_sleeve",
+      "long_sleeve",
+      "raglan",
+      "dropped_sleeve",
+      "balloon_sleeve",
+      "puff_sleeve",
+      "bell_sleeve",
+      "fitted_sleeve",
+      "rolled_sleeve"
+    ],
+    "pants_specific": [
+      "skinny_leg",
+      "slim_leg",
+      "straight_leg",
+      "relaxed_leg",
+      "wide_leg",
+      "baggy_leg",
+      "tapered_leg",
+      "bootcut",
+      "flared",
+      "cropped_leg",
+      "full_length",
+      "stacked_hem",
+      "cuffed",
+      "high_rise",
+      "mid_rise",
+      "low_rise",
+      "pleated_front",
+      "flat_front",
+      "elastic_waist",
+      "drawstring_waist",
+      "cargo_pockets",
+      "five_pocket",
+      "carpenter_details",
+      "distressed",
+      "ripped",
+      "washed",
+      "raw_denim"
+    ],
+    "jacket_coat_specific": [
+      "lightweight",
+      "midweight",
+      "heavyweight",
+      "insulated",
+      "padded",
+      "waterproof",
+      "water_resistant",
+      "windproof",
+      "breathable",
+      "hooded",
+      "detachable_hood",
+      "high_collar",
+      "cropped_jacket",
+      "waist_length",
+      "hip_length",
+      "thigh_length",
+      "knee_length",
+      "ankle_length",
+      "double_breasted",
+      "belted",
+      "technical",
+      "utility_pockets"
+    ],
+    "dress_skirt_specific": [
+      "mini",
+      "above_knee",
+      "knee_length",
+      "midi",
+      "maxi",
+      "bodycon",
+      "a_line",
+      "straight",
+      "fit_and_flare",
+      "slip",
+      "wrap",
+      "empire_waist",
+      "pleated",
+      "tiered",
+      "slit",
+      "high_slit",
+      "backless",
+      "strapless"
+    ],
+    "occasion": [
+      "everyday",
+      "lounging",
+      "errands",
+      "university",
+      "school",
+      "office",
+      "business_meeting",
+      "interview",
+      "date",
+      "restaurant",
+      "nightlife",
+      "party",
+      "clubbing",
+      "wedding_guest",
+      "formal_event",
+      "black_tie",
+      "funeral",
+      "religious_event",
+      "vacation",
+      "beach",
+      "resort",
+      "hiking",
+      "camping",
+      "gym",
+      "running",
+      "cycling",
+      "skiing",
+      "travel",
+      "airport",
+      "festival",
+      "concert"
+    ],
+    "weather_season": [
+      "extreme_heat",
+      "hot_weather",
+      "warm_weather",
+      "mild_weather",
+      "transitional",
+      "cool_weather",
+      "cold_weather",
+      "extreme_cold",
+      "rainy",
+      "windy",
+      "snowy",
+      "humid",
+      "dry_weather",
+      "spring",
+      "summer",
+      "autumn",
+      "winter",
+      "year_round"
+    ],
+    "physical_properties": [
+      "warmth",
+      "weight",
+      "thickness",
+      "breathability",
+      "stretch",
+      "softness",
+      "rigidity",
+      "drape",
+      "water_resistance",
+      "wind_resistance",
+      "durability"
+    ],
+    "branding": [
+      "no_visible_branding",
+      "subtle_branding",
+      "small_logo",
+      "visible_logo",
+      "prominent_logo",
+      "logo_heavy",
+      "monogram",
+      "graphic_branding"
+    ],
+    "trend_uniqueness": [
+      "basic",
+      "wardrobe_staple",
+      "mainstream",
+      "trendy",
+      "fashion_forward",
+      "niche",
+      "unusual",
+      "experimental",
+      "statement",
+      "iconic",
+      "timeless",
+      "seasonal_trend"
+    ],
+    "era": [
+      "1950s",
+      "1960s",
+      "1970s",
+      "1980s",
+      "1990s",
+      "y2k",
+      "contemporary"
+    ],
+    "lifestyle": [
+      "urban",
+      "suburban",
+      "country",
+      "outdoors",
+      "creative",
+      "academic",
+      "corporate",
+      "luxury",
+      "student",
+      "traveler",
+      "musician",
+      "artist",
+      "designer",
+      "skater",
+      "athlete",
+      "motorcycle",
+      "equestrian",
+      "sailing",
+      "mountain",
+      "beach",
+      "nightlife"
+    ],
+    "price_perception": [
+      "budget_looking",
+      "midrange_looking",
+      "premium_looking",
+      "luxurious_looking",
+      "expensive_looking"
+    ]
+  },
+  "scoring_rules": {
+    "preference_range": {
+      "min": -1.0,
+      "max": 1.0,
+      "meaning": {
+        "-1.0": "strongly_exclude",
+        "-0.5": "prefer_to_avoid",
+        "0.0": "neutral_or_unspecified",
+        "0.5": "prefer",
+        "1.0": "strongly_want"
+      }
+    },
+    "hard_filter_examples": [
+      "category",
+      "type",
+      "subtype",
+      "price_min",
+      "price_max",
+      "size",
+      "color",
+      "gender_market",
+      "availability"
+    ],
+    "type_gate": {
+      "enabled": true,
+      "logic": "If the query explicitly specifies a garment type, products outside that type receive a score of 0.",
+      "hierarchical": true,
+      "example": "Querying 'pants' allows jeans, trousers, chinos, cargo pants, sweatpants, and leggings, but excludes jackets and shirts."
+    },
+    "null_semantics": {
+      "null": "attribute_not_applicable",
+      "0": "attribute_applies_but_is_absent_or_minimal"
+    },
+    "recommended_pipeline": [
+      "parse_user_query",
+      "extract_hard_filters",
+      "apply_type_gate",
+      "load_applicable_attribute_schema",
+      "extract_soft_preferences",
+      "score_attribute_match",
+      "score_embedding_similarity",
+      "apply_business_rules",
+      "rank_results"
+    ]
+  },
+  "example_product_schema": {
+    "id": 91821,
+    "taxonomy": {
+      "category": "bottoms",
+      "type": "pants",
+      "subtype": "jeans",
+      "variant": "wide_leg_jeans"
+    },
+    "metadata": {
+      "brand": "Example",
+      "price": 120,
+      "currency": "CAD",
+      "sizes": [
+        "30",
+        "32",
+        "34"
+      ],
+      "gender_market": "mens",
+      "in_stock": true
+    },
+    "objective_attributes": {
+      "color": "dark_blue",
+      "material": "denim",
+      "pattern": "solid",
+      "closure": "zip"
+    },
+    "visual_attributes": {
+      "wide_leg": 0.92,
+      "relaxed": 0.86,
+      "baggy": 0.66,
+      "vintage": 0.73,
+      "streetwear": 0.49,
+      "rugged": 0.58,
+      "minimalist": 0.54,
+      "understated": 0.67,
+      "distressed": 0.18
+    },
+    "functional_attributes": {
+      "warmth": 0.42,
+      "stretch": 0.12,
+      "durability": 0.82
+    },
+    "embedding": []
+  },
+  "example_query_schema": {
+    "raw_query": "dark loose jeans that look a little 90s but aren't ripped",
+    "hard_filters": {
+      "category": "bottoms",
+      "type": "pants",
+      "subtype": "jeans"
+    },
+    "preferences": {
+      "dark": 0.8,
+      "relaxed": 0.9,
+      "1990s": 0.8,
+      "ripped": -1.0
+    }
+  }
+}

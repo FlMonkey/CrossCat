@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CrossCat — Find what they mean</title>
+  <link rel="stylesheet" href="/static/app.css">
+  <script src="/static/app.js" defer></script>
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <a class="brand" href="/" aria-label="CrossCat home"><span class="brand-mark">✳</span><span>CrossCat</span></a>
+      <div class="workspace-label">RETAIL WORKSPACE</div>
+      <nav class="nav" aria-label="Main navigation">
+        <button class="nav-item active" data-view="search"><span>⌕</span> Discover</button>
+        <button class="nav-item" data-view="inventory"><span>▦</span> Inventory <span id="nav-count" class="nav-count">0</span></button>
+        <button class="nav-item" data-view="add"><span>＋</span> Add a piece</button>
+      </nav>
+      <div class="sidebar-bottom">
+        <div class="sidebar-note"><span class="note-icon">✦</span><strong>From a feeling to a find.</strong><p>Describe the item a customer has in mind. CrossCat connects their words to what you have in stock.</p></div>
+        <div id="api-status" class="api-status"><span class="status-dot"></span> Checking API setup…</div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar"><span>YOUR STORE / <span id="breadcrumb">DISCOVER</span></span><span class="topbar-right">THE PERSONAL SHOPPING DESK <span class="sunburst">✳</span></span></header>
+
+      <section id="search-view" class="view active">
+        <div class="eyebrow"><span class="eyebrow-line"></span> INTELLIGENT PRODUCT DISCOVERY</div>
+        <div class="hero"><div><h1>Find what<br><em>they mean.</em></h1><p>Even when they can’t quite name it. Search your stock by color, cut, texture, occasion, mood, and everything in between.</p></div><div class="hero-graphic" aria-hidden="true"><div class="orb orb-one"></div><div class="orb orb-two"></div><span>✳</span></div></div>
+        <form id="search-form" class="search-box"><label for="query">What is your customer looking for?</label><div class="search-row"><span class="search-icon">⌕</span><input id="query" name="query" required maxlength="1000" placeholder="e.g. relaxed dark jeans with a 90s feel, but not ripped" autocomplete="off"><button class="primary-button" type="submit">Find pieces <span>↗</span></button></div><div class="search-foot"><span>TRY A SEARCH</span><button type="button" class="example" data-query="A relaxed dark pair of jeans with a 90s feel, but not ripped">Dark 90s jeans</button><button type="button" class="example" data-query="A smart casual blue shirt for the office, no visible logo">Office shirt</button><button type="button" class="example" data-query="A warm minimalist winter coat, not black">Winter coat</button></div></form>
+        <div id="search-message" class="message" role="status" hidden></div>
+        <div id="search-summary" class="search-summary" hidden></div>
+        <div id="results-area" class="results-area"><div class="section-heading"><div><span class="tiny-label">CURATED FROM YOUR INVENTORY</span><h2>Search results</h2></div><span id="result-count" class="count-label">—</span></div><div id="results" class="product-grid"><div class="empty-state"><span class="empty-symbol">⌕</span><h3>Your next find starts here</h3><p>Describe a garment above and we’ll find the closest pieces in your inventory.</p></div></div></div>
+      </section>
+
+      <section id="inventory-view" class="view">
+        <div class="eyebrow"><span class="eyebrow-line"></span> YOUR COLLECTION</div><div class="page-heading"><div><h1>Every piece,<br><em>understood.</em></h1><p>Your catalog is classified from its image and description, ready to be found.</p></div><button id="inventory-add" class="outline-button">＋ Add a piece</button></div>
+        <div class="section-heading"><div><span class="tiny-label">LIVE STOCK DATABASE</span><h2>Inventory</h2></div><span id="inventory-count" class="count-label">0 pieces</span></div>
+        <div id="inventory" class="product-grid"></div>
+      </section>
+
+      <section id="add-view" class="view">
+        <div class="eyebrow"><span class="eyebrow-line"></span> GROW YOUR COLLECTION</div><div class="page-heading"><div><h1>Add a<br><em>new piece.</em></h1><p>Upload a product photo and tell us what you know. CrossCat will score its visible and described qualities.</p></div></div>
+        <div class="add-layout"><form id="add-form" class="add-card"><div class="form-topline"><span>01 / PRODUCT DETAILS</span><span>ALL FIELDS REQUIRED</span></div><label for="product-name">Product name</label><input id="product-name" name="name" maxlength="120" required placeholder="e.g. Washed straight-leg jeans"><label for="description">Product description</label><textarea id="description" name="description" maxlength="3000" required rows="5" placeholder="Mention known fabric, fit, color, construction and other details the image may not reveal."></textarea><label for="image">Product image</label><label class="upload-zone" for="image"><input id="image" name="image" type="file" accept="image/jpeg,image/png,image/webp" required><span id="upload-preview" class="upload-preview"><span class="upload-glyph">↥</span><strong>Choose an image</strong><small>JPEG, PNG or WebP · up to 8 MB</small></span></label><button id="add-submit" class="primary-button full" type="submit">Analyze & add to inventory <span>↗</span></button><div id="add-message" class="message" role="status" hidden></div></form><div class="process-card"><span class="tiny-label">HOW IT WORKS</span><h2>One image.<br>Many dimensions.</h2><div class="process-step"><span>01</span><div><strong>Upload and describe</strong><p>The photo captures what you see; the description adds details you know.</p></div></div><div class="process-step"><span>02</span><div><strong>AI classification</strong><p>OpenAI scores relevant attributes from your taxonomy on a 0–1 scale.</p></div></div><div class="process-step"><span>03</span><div><strong>Ready for discovery</strong><p>The scored piece is saved locally and becomes searchable right away.</p></div></div></div></div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
